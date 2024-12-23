@@ -11,3 +11,5 @@ Below is the list of snippets created so far:
 1. Snippet that loads the Gemini API KEY from the .env file and puts it in the MDLS_API_KEY environment variable.
 2. Snipet to generate Text from Text (zero-shot approach).
 3. Snipet to generate Text from Text & Image (zero-shot approach).
+4. Snipet to initiate a Chat using only Text input (zero-shot approach).
+
