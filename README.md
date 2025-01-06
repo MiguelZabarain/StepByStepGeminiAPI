@@ -13,5 +13,6 @@ Below is the list of snippets created so far:
 3. Snipet to generate Text from Text & Image (zero-shot approach).
 4. Snipet to initiate a Chat using only Text input (zero-shot approach).
 5. Snipet to initiate the model passing two config attributes: max_output_tokens and temperature.
+6. Snipet to initiate the model passing one config attribute and System Instructions.
 
 
