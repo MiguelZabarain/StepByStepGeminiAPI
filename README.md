@@ -12,7 +12,7 @@ Below is the list of snippets created so far:
 2. Snipet to generate Text from Text (zero-shot approach).
 3. Snipet to generate Text from Text & Image (zero-shot approach).
 4. Snipet to initiate a Chat using only Text input (zero-shot approach).
-5. Snipet to initiate the model passing two config attributes: max_output_tokens and temperature.
-6. Snipet to initiate the model passing one config attribute and System Instructions.
-
+5. Snipet to generate Text from Text passing two config attributes: max_output_tokens and temperature.
+6. Snipet to generate Text from Text passing one config attribute and System Instructions.
+7. Snipet to generate Text from Text and two PDF documents using the File API that allows using documents up to 2GB in size -and 20GB in total. 
 
