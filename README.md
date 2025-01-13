@@ -15,4 +15,6 @@ Below is the list of snippets created so far:
 5. Snipet to generate Text from Text passing two config attributes: max_output_tokens and temperature.
 6. Snipet to generate Text from Text passing one config attribute and System Instructions.
 7. Snipet to generate Text from Text and two PDF documents using the File API that allows using documents up to 2GB in size -and 20GB in total. 
+8. Snipet feat: streaming response capability for real-time text generation.
+
 
