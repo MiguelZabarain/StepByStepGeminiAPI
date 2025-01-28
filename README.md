@@ -7,16 +7,15 @@ It then presents snippets that perform a particular function documented in the G
 
 Each cell is independent of the others, so you can execute them in the order you want; however, you must execute the first cell before attempting to execute any other; this is required to have access to the API KEY for Gemini.
 
-Below is the list of snippets created so far:
-1. Snippet that loads the Gemini API KEY from the .env file and puts it in the MDLS_API_KEY environment variable.
-2. Snippet to generate Text from Text (zero-shot approach).
-3. Snippet to generate Text from Text & Image (zero-shot approach).
-4. Snippet to initiate a Chat using only Text input (zero-shot approach).
-5. Snippet to generate Text from Text passing two config attributes: max_output_tokens and temperature.
-6. Snippet to generate Text from Text passing one config attribute and System Instructions.
-7. Snippet to generate Text from Text and two PDF documents using the File API that allows using documents up to 2GB in size -and 20GB in total. 
-8. Snippet to get streaming response capability for real-time text generation.
-9. Snippet to configure content safety settings and thresholds for content filtering.
-10. Snippet to get structured JSON responses using chat functionality with explicit formatting.
-11. Snippet to generate and compare text embeddings for semantic similarity analysis.
+Below is the description of the snippets created so far:
+1. Loads the Gemini API KEY from the .env file and puts it in the MDLS_API_KEY environment variable.
+2. Instantiates the model to generate Text from Text.
+3. Instantiates the model to generate Text from Text & local Image.
+4. Instantiates the model to initiate a Chat using only Text input.
+5. Instantiates the model configuring **max_output_tokens** and **temperature** to generate content using only Text input.
+6. Instantiates the model configuring **temperature** and **system_instruction** to generate content using only Text input.
+7. Uploads two PDF files to the cloud so the LLM model can have access to them. The process finalize deleting the uploaded files. 
+8. Instantiates the model, setting streaming response, for real-time content generation using only Text input.
+9. Instantiates the model using safety settings to generate filtered content using only Text input.
+10. Instantiates the model to generate Text from Text & web Image.
 
